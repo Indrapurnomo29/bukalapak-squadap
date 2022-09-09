@@ -1,0 +1,152 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 105.0.0.0,,,2022-09-10 05:39:15,2022-09-10 05:43:42,4m - 26.999s,PASSED
+,,,,,,,
+Test Cases/Login/TC01,Chrome 105.0.0.0,,,2022-09-10 05:39:15,2022-09-10 05:39:41,25.837s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:39:16,2022-09-10 05:39:21,4.516s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:39:21,2022-09-10 05:39:25,4.874s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:39:25,2022-09-10 05:39:26,0.832s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:39:26,2022-09-10 05:39:30,3.957s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:39:30,2022-09-10 05:39:32,1.226s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:39:32,2022-09-10 05:39:32,0.716s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), ""jnEzvO7FEasNALd55+33aA=="")",Chrome 105.0.0.0,,,2022-09-10 05:39:32,2022-09-10 05:39:33,0.975s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:39:33,2022-09-10 05:39:34,0.532s,PASSED
+"verifyElementPresent(findTestObject(""MainPage/Bukalapak_Logo""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:39:34,2022-09-10 05:39:40,5.815s,PASSED
+waitForPageLoad(0),Chrome 105.0.0.0,,,2022-09-10 05:39:40,2022-09-10 05:39:40,0.291s,PASSED
+"verifyElementText(findTestObject(""MainPage/Kamu_telah_login_sebagai_Indra_Tester""), ""Kamu telah login sebagai Indra Tester"")",Chrome 105.0.0.0,,,2022-09-10 05:39:40,2022-09-10 05:39:41,0.707s,PASSED
+takeScreenshot(),Chrome 105.0.0.0,,,2022-09-10 05:39:41,2022-09-10 05:39:41,0.700s,PASSED
+,,,,,,,
+Test Cases/Login/TC02,Chrome 105.0.0.0,,,2022-09-10 05:39:41,2022-09-10 05:39:57,15.873s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:39:42,2022-09-10 05:39:45,3.072s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:39:45,2022-09-10 05:39:49,3.398s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:39:49,2022-09-10 05:39:49,0.568s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:39:49,2022-09-10 05:39:55,5.325s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""email"")",Chrome 105.0.0.0,,,2022-09-10 05:39:55,2022-09-10 05:39:56,1.035s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:39:56,2022-09-10 05:39:56,0.476s,PASSED
+"verifyElementText(findTestObject(""NotificationLogin/User_tidak_ditemukan""), ""User tidak ditemukan"")",Chrome 105.0.0.0,,,2022-09-10 05:39:56,2022-09-10 05:39:57,0.660s,PASSED
+takeScreenshot(STOP_ON_FAILURE),Chrome 105.0.0.0,,,2022-09-10 05:39:57,2022-09-10 05:39:57,0.351s,PASSED
+,,,,,,,
+Test Cases/Login/TC03,Chrome 105.0.0.0,,,2022-09-10 05:39:57,2022-09-10 05:40:13,15.855s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:39:58,2022-09-10 05:40:00,2.738s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:40:00,2022-09-10 05:40:06,6.042s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:40:06,2022-09-10 05:40:07,0.642s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:40:07,2022-09-10 05:40:11,3.566s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), """")",Chrome 105.0.0.0,,,2022-09-10 05:40:11,2022-09-10 05:40:12,1.077s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:40:12,2022-09-10 05:40:12,0.512s,PASSED
+"verifyElementText(findTestObject(""NotificationLogin/Form_harus_diisi_dulu_ya""), ""Form harus diisi dulu ya"")",Chrome 105.0.0.0,,,2022-09-10 05:40:12,2022-09-10 05:40:13,0.412s,PASSED
+takeScreenshot(),Chrome 105.0.0.0,,,2022-09-10 05:40:13,2022-09-10 05:40:13,0.356s,PASSED
+,,,,,,,
+Test Cases/Login/TC04,Chrome 105.0.0.0,,,2022-09-10 05:40:13,2022-09-10 05:40:29,16.353s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:40:13,2022-09-10 05:40:16,2.534s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:40:16,2022-09-10 05:40:20,4.494s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:40:20,2022-09-10 05:40:21,0.434s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:40:21,2022-09-10 05:40:25,4.440s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:40:25,2022-09-10 05:40:26,0.998s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:40:26,2022-09-10 05:40:27,0.462s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), ""9nJBMkew2Wc="")",Chrome 105.0.0.0,,,2022-09-10 05:40:27,2022-09-10 05:40:28,0.902s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:40:28,2022-09-10 05:40:28,0.432s,PASSED
+"verifyElementText(findTestObject(""NotificationLogin/Password_yang_kamu_masukkan_salah_Silakan_coba_lagi""), ""Password yang kamu masukkan salah. Silakan coba lagi."")",Chrome 105.0.0.0,,,2022-09-10 05:40:28,2022-09-10 05:40:29,0.840s,PASSED
+takeScreenshot(STOP_ON_FAILURE),Chrome 105.0.0.0,,,2022-09-10 05:40:29,2022-09-10 05:40:29,0.346s,PASSED
+,,,,,,,
+Test Cases/Login/TC05,Chrome 105.0.0.0,,,2022-09-10 05:40:29,2022-09-10 05:40:45,15.755s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:40:30,2022-09-10 05:40:33,2.663s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:40:33,2022-09-10 05:40:37,4.164s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:40:37,2022-09-10 05:40:37,0.457s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:40:37,2022-09-10 05:40:42,4.584s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:40:42,2022-09-10 05:40:43,0.948s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:40:43,2022-09-10 05:40:43,0.442s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), """")",Chrome 105.0.0.0,,,2022-09-10 05:40:43,2022-09-10 05:40:44,0.634s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:40:44,2022-09-10 05:40:44,0.424s,PASSED
+"verifyElementText(findTestObject(""NotificationLogin/Password_wajib_diisi_ya""), ""Password wajib diisi, ya."")",Chrome 105.0.0.0,,,2022-09-10 05:40:44,2022-09-10 05:40:45,0.538s,PASSED
+takeScreenshot(),Chrome 105.0.0.0,,,2022-09-10 05:40:45,2022-09-10 05:40:45,0.371s,PASSED
+,,,,,,,
+Test Cases/Search/TC06,Chrome 105.0.0.0,,,2022-09-10 05:40:45,2022-09-10 05:41:15,29.692s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:40:46,2022-09-10 05:40:48,2.490s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:40:48,2022-09-10 05:40:52,4.295s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:40:52,2022-09-10 05:40:53,0.347s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:40:53,2022-09-10 05:40:57,3.984s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:40:57,2022-09-10 05:40:58,1.138s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:40:58,2022-09-10 05:40:58,0.442s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), ""jnEzvO7FEasNALd55+33aA=="")",Chrome 105.0.0.0,,,2022-09-10 05:40:58,2022-09-10 05:40:59,0.864s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:40:59,2022-09-10 05:41:00,0.472s,PASSED
+"verifyElementPresent(findTestObject(""MainPage/Bukalapak_Logo""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:41:00,2022-09-10 05:41:05,5.706s,PASSED
+waitForPageLoad(0),Chrome 105.0.0.0,,,2022-09-10 05:41:05,2022-09-10 05:41:05,0.032s,PASSED
+"verifyElementText(findTestObject(""MainPage/Kamu_telah_login_sebagai_Indra_Tester""), ""Kamu telah login sebagai Indra Tester"")",Chrome 105.0.0.0,,,2022-09-10 05:41:05,2022-09-10 05:41:06,0.495s,PASSED
+"setText(findTestObject(""MainPage/Search_Input""), ""sepatu"")",Chrome 105.0.0.0,,,2022-09-10 05:41:06,2022-09-10 05:41:07,0.934s,PASSED
+"click(findTestObject(""MainPage/Icon_Search_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:41:07,2022-09-10 05:41:13,6.334s,PASSED
+"verifyElementPresent(findTestObject(""MainPage/Sepatu_Verify""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:41:13,2022-09-10 05:41:14,1.076s,PASSED
+takeScreenshot(STOP_ON_FAILURE),Chrome 105.0.0.0,,,2022-09-10 05:41:14,2022-09-10 05:41:15,0.557s,PASSED
+,,,,,,,
+Test Cases/Category/TC07,Chrome 105.0.0.0,,,2022-09-10 05:41:15,2022-09-10 05:41:51,36.124s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:41:16,2022-09-10 05:41:19,3.141s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:41:19,2022-09-10 05:41:25,5.953s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:41:25,2022-09-10 05:41:26,0.594s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:41:26,2022-09-10 05:41:29,3.811s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:41:29,2022-09-10 05:41:31,1.215s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:41:31,2022-09-10 05:41:31,0.449s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), ""jnEzvO7FEasNALd55+33aA=="")",Chrome 105.0.0.0,,,2022-09-10 05:41:31,2022-09-10 05:41:32,0.925s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:41:32,2022-09-10 05:41:32,0.451s,PASSED
+"verifyElementPresent(findTestObject(""MainPage/Bukalapak_Logo""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:41:32,2022-09-10 05:41:39,6.178s,PASSED
+waitForPageLoad(0),Chrome 105.0.0.0,,,2022-09-10 05:41:39,2022-09-10 05:41:39,0.039s,PASSED
+"verifyElementText(findTestObject(""MainPage/Kamu_telah_login_sebagai_Indra_Tester""), ""Kamu telah login sebagai Indra Tester"")",Chrome 105.0.0.0,,,2022-09-10 05:41:39,2022-09-10 05:41:39,0.436s,PASSED
+"click(findTestObject(""MainPage/Kategori_Menu""), STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-10 05:41:39,2022-09-10 05:41:40,0.786s,PASSED
+"click(findTestObject(""CategoryBike/Fullbike_Product""))",Chrome 105.0.0.0,,,2022-09-10 05:41:40,2022-09-10 05:41:45,5.413s,PASSED
+"click(findTestObject(""CategoryBike/Element_troy_Product""))",Chrome 105.0.0.0,,,2022-09-10 05:41:45,2022-09-10 05:41:50,4.335s,PASSED
+"verifyElementPresent(findTestObject(""CategoryBike/Element_troy_Verify""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:41:50,2022-09-10 05:41:50,0.732s,PASSED
+takeScreenshot(),Chrome 105.0.0.0,,,2022-09-10 05:41:50,2022-09-10 05:41:51,0.655s,PASSED
+,,,,,,,
+Test Cases/Filter/TC08,Chrome 105.0.0.0,,,2022-09-10 05:41:51,2022-09-10 05:42:23,31.575s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:41:52,2022-09-10 05:41:55,2.728s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:41:55,2022-09-10 05:41:59,4.171s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:41:59,2022-09-10 05:41:59,0.604s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:41:59,2022-09-10 05:42:03,3.973s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:42:03,2022-09-10 05:42:04,1.181s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:42:04,2022-09-10 05:42:05,0.440s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), ""jnEzvO7FEasNALd55+33aA=="")",Chrome 105.0.0.0,,,2022-09-10 05:42:05,2022-09-10 05:42:06,0.860s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:42:06,2022-09-10 05:42:06,0.444s,PASSED
+"verifyElementPresent(findTestObject(""MainPage/Bukalapak_Logo""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:42:06,2022-09-10 05:42:11,4.971s,PASSED
+waitForPageLoad(0),Chrome 105.0.0.0,,,2022-09-10 05:42:11,2022-09-10 05:42:11,0.041s,PASSED
+"verifyElementText(findTestObject(""MainPage/Kamu_telah_login_sebagai_Indra_Tester""), ""Kamu telah login sebagai Indra Tester"")",Chrome 105.0.0.0,,,2022-09-10 05:42:11,2022-09-10 05:42:12,0.904s,PASSED
+"click(findTestObject(""MainPage/Kategori_Menu""), STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-10 05:42:12,2022-09-10 05:42:13,0.754s,PASSED
+"click(findTestObject(""CategoryBike/Fullbike_Product""))",Chrome 105.0.0.0,,,2022-09-10 05:42:13,2022-09-10 05:42:20,6.749s,PASSED
+"click(findTestObject(""FilterPopuler/4KeAtas_RadioButton""))",Chrome 105.0.0.0,,,2022-09-10 05:42:20,2022-09-10 05:42:21,0.940s,PASSED
+"verifyElementText(findTestObject(""FilterPopuler/4.337_barang_Verify""), ""4.337 barang"")",Chrome 105.0.0.0,,,2022-09-10 05:42:21,2022-09-10 05:42:22,1.427s,PASSED
+takeScreenshot(),Chrome 105.0.0.0,,,2022-09-10 05:42:22,2022-09-10 05:42:23,0.523s,PASSED
+,,,,,,,
+Test Cases/Cart/TC09,Chrome 105.0.0.0,,,2022-09-10 05:42:23,2022-09-10 05:43:09,46.973s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:42:24,2022-09-10 05:42:26,2.799s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:42:26,2022-09-10 05:42:32,5.928s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:42:32,2022-09-10 05:42:34,1.384s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:42:34,2022-09-10 05:42:38,4.603s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:42:38,2022-09-10 05:42:39,1.136s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:42:39,2022-09-10 05:42:40,0.577s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), ""jnEzvO7FEasNALd55+33aA=="")",Chrome 105.0.0.0,,,2022-09-10 05:42:40,2022-09-10 05:42:41,1.104s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:42:41,2022-09-10 05:42:42,0.513s,PASSED
+"verifyElementPresent(findTestObject(""MainPage/Bukalapak_Logo""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:42:42,2022-09-10 05:42:48,5.835s,PASSED
+waitForPageLoad(0),Chrome 105.0.0.0,,,2022-09-10 05:42:48,2022-09-10 05:42:48,0.042s,PASSED
+"verifyElementText(findTestObject(""MainPage/Kamu_telah_login_sebagai_Indra_Tester""), ""Kamu telah login sebagai Indra Tester"")",Chrome 105.0.0.0,,,2022-09-10 05:42:48,2022-09-10 05:42:49,0.958s,PASSED
+"click(findTestObject(""MainPage/Kategori_Menu""), STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-10 05:42:49,2022-09-10 05:42:49,0.834s,PASSED
+"click(findTestObject(""CategoryBike/Fullbike_Product""))",Chrome 105.0.0.0,,,2022-09-10 05:42:49,2022-09-10 05:42:56,6.677s,PASSED
+"click(findTestObject(""CategoryBike/Element_troy_Product""))",Chrome 105.0.0.0,,,2022-09-10 05:42:56,2022-09-10 05:43:02,6.223s,PASSED
+"verifyElementPresent(findTestObject(""CategoryBike/Element_troy_Verify""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:43:02,2022-09-10 05:43:03,0.434s,PASSED
+"click(findTestObject(""CategoryBike/Masukkan_Keranjang_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:43:03,2022-09-10 05:43:03,0.695s,PASSED
+"verifyElementText(findTestObject(""CategoryBike/Keranjang_Belanja_Pop-Up""), ""Keranjang Belanja"")",Chrome 105.0.0.0,,,2022-09-10 05:43:03,2022-09-10 05:43:05,1.111s,PASSED
+"click(findTestObject(""CategoryBike/Lihat_Keranjang_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:43:05,2022-09-10 05:43:08,3.834s,PASSED
+"verifyElementPresent(findTestObject(""CartPage/1_Cart""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:43:08,2022-09-10 05:43:09,0.593s,PASSED
+takeScreenshot(),Chrome 105.0.0.0,,,2022-09-10 05:43:09,2022-09-10 05:43:09,0.566s,PASSED
+,,,,,,,
+Test Cases/Cart/TC10,Chrome 105.0.0.0,,,2022-09-10 05:43:10,2022-09-10 05:43:42,32.375s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-10 05:43:11,2022-09-10 05:43:14,3.163s,PASSED
+"navigateToUrl(""https://www.bukalapak.com/#"")",Chrome 105.0.0.0,,,2022-09-10 05:43:14,2022-09-10 05:43:19,4.911s,PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-10 05:43:19,2022-09-10 05:43:19,0.507s,PASSED
+"click(findTestObject(""Bukalapak.com/Login_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:43:19,2022-09-10 05:43:26,6.696s,PASSED
+"setText(findTestObject(""AccountPage/Nomor_handphone_atau_email_Input""), ""indratesting666@gmail.com"")",Chrome 105.0.0.0,,,2022-09-10 05:43:26,2022-09-10 05:43:27,1.388s,PASSED
+"click(findTestObject(""AccountPage/Lanjut_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:43:27,2022-09-10 05:43:28,0.439s,PASSED
+"setEncryptedText(findTestObject(""AccountPage/Password_Input""), ""jnEzvO7FEasNALd55+33aA=="")",Chrome 105.0.0.0,,,2022-09-10 05:43:28,2022-09-10 05:43:28,0.861s,PASSED
+"click(findTestObject(""AccountPage/Login_Button""))",Chrome 105.0.0.0,,,2022-09-10 05:43:28,2022-09-10 05:43:29,0.412s,PASSED
+"verifyElementPresent(findTestObject(""MainPage/Bukalapak_Logo""), 0)",Chrome 105.0.0.0,,,2022-09-10 05:43:29,2022-09-10 05:43:36,6.731s,PASSED
+waitForPageLoad(0),Chrome 105.0.0.0,,,2022-09-10 05:43:36,2022-09-10 05:43:36,0.049s,PASSED
+"verifyElementText(findTestObject(""MainPage/Kamu_telah_login_sebagai_Indra_Tester""), ""Kamu telah login sebagai Indra Tester"")",Chrome 105.0.0.0,,,2022-09-10 05:43:36,2022-09-10 05:43:36,0.526s,PASSED
+"click(findTestObject(""CartPage/Cart_Favorite""))",Chrome 105.0.0.0,,,2022-09-10 05:43:36,2022-09-10 05:43:40,3.855s,PASSED
+"click(findTestObject(""CartPage/Hapus_Menu""))",Chrome 105.0.0.0,,,2022-09-10 05:43:40,2022-09-10 05:43:41,0.882s,PASSED
+"verifyElementText(findTestObject(""CartPage/Barang_telah_dihapus_Pop-Up""), ""Barang telah dihapus."")",Chrome 105.0.0.0,,,2022-09-10 05:43:41,2022-09-10 05:43:41,0.526s,PASSED
+takeScreenshot(),Chrome 105.0.0.0,,,2022-09-10 05:43:41,2022-09-10 05:43:42,0.415s,PASSED

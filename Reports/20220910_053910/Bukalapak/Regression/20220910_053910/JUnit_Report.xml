@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression" time="266.999" tests="10" failures="0" errors="0">
+   <testsuite name="Regression" tests="10" failures="0" errors="0" time="266.999" skipped="0" timestamp="2022-09-10 05:39:15" hostname="user - LAPTOP-BLC6S5Q8" id="Test Suites/Bukalapak/Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763181417.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763197531.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763213402.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763229750.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763245513.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763274997.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763311059.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763342773.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763389768.png, C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763422223.png"/>
+         <property name="hostName" value="user - LAPTOP-BLC6S5Q8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="09fedb27b637b6a6c270495c1db31497"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TC01" time="25.837" classname="Test Cases/Login/TC01" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:39:15 - [TEST_CASE][PASSED] - Test Cases/Login/TC01: Test Cases/Login/TC01
+
+2022-09-10 05:39:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:39:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:39:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:39:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:39:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:39:25 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:39:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:39:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:39:30 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:39:32 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:39:32 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:39:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), "jnEzvO7FEasNALd55+33aA=="): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:39:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:39:33 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:39:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MainPage/Bukalapak_Logo"), 0): Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:39:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:39:40 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-09-10 05:39:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:39:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-10 05:39:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MainPage/Kamu_telah_login_sebagai_Indra_Tester"), "Kamu telah login sebagai Indra Tester"): Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:39:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:39:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-09-10 05:39:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763181417.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC02" time="15.873" classname="Test Cases/Login/TC02" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:39:41 - [TEST_CASE][PASSED] - Test Cases/Login/TC02: Test Cases/Login/TC02
+
+2022-09-10 05:39:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:39:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:39:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:39:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:39:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:39:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:39:49 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:39:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:39:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:39:55 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "email"): Text 'email' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:39:56 - [MESSAGE][PASSED] - Text 'email' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:39:56 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:39:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("NotificationLogin/User_tidak_ditemukan"), "User tidak ditemukan"): Actual text and expected text of test object 'Object Repository/NotificationLogin/User_tidak_ditemukan' are matched.
+
+2022-09-10 05:39:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NotificationLogin/User_tidak_ditemukan' are matched.
+
+2022-09-10 05:39:57 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-09-10 05:39:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763197531.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC03" time="15.855" classname="Test Cases/Login/TC03" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:39:57 - [TEST_CASE][PASSED] - Test Cases/Login/TC03: Test Cases/Login/TC03
+
+2022-09-10 05:39:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:39:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:39:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:39:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:40:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:40:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:06 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:40:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), ""): Text '' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:12 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("NotificationLogin/Form_harus_diisi_dulu_ya"), "Form harus diisi dulu ya"): Actual text and expected text of test object 'Object Repository/NotificationLogin/Form_harus_diisi_dulu_ya' are matched.
+
+2022-09-10 05:40:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NotificationLogin/Form_harus_diisi_dulu_ya' are matched.
+
+2022-09-10 05:40:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-09-10 05:40:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763213402.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC04" time="16.353" classname="Test Cases/Login/TC04" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:40:13 - [TEST_CASE][PASSED] - Test Cases/Login/TC04: Test Cases/Login/TC04
+
+2022-09-10 05:40:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:40:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:40:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:40:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:40:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:40:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:20 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:40:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:25 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:26 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:26 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), "9nJBMkew2Wc="): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:40:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:40:28 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:40:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("NotificationLogin/Password_yang_kamu_masukkan_salah_Silakan_coba_lagi"), "Password yang kamu masukkan salah. Silakan coba lagi."): Actual text and expected text of test object 'Object Repository/NotificationLogin/Password_yang_kamu_masukkan_salah_Silakan_coba_lagi' are matched.
+
+2022-09-10 05:40:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NotificationLogin/Password_yang_kamu_masukkan_salah_Silakan_coba_lagi' are matched.
+
+2022-09-10 05:40:29 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-09-10 05:40:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763229750.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC05" time="15.755" classname="Test Cases/Login/TC05" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:40:29 - [TEST_CASE][PASSED] - Test Cases/Login/TC05: Test Cases/Login/TC05
+
+2022-09-10 05:40:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:40:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:40:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:40:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:40:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:40:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:37 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:40:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:42 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:43 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:43 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), ""): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:40:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:40:44 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:40:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("NotificationLogin/Password_wajib_diisi_ya"), "Password wajib diisi, ya."): Actual text and expected text of test object 'Object Repository/NotificationLogin/Password_wajib_diisi_ya' are matched.
+
+2022-09-10 05:40:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/NotificationLogin/Password_wajib_diisi_ya' are matched.
+
+2022-09-10 05:40:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-09-10 05:40:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763245513.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC06" time="29.692" classname="Test Cases/Search/TC06" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:40:45 - [TEST_CASE][PASSED] - Test Cases/Search/TC06: Test Cases/Search/TC06
+
+2022-09-10 05:40:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:40:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:40:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:40:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:40:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:40:48 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:52 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:40:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:40:53 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:40:57 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:58 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:40:58 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:40:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), "jnEzvO7FEasNALd55+33aA=="): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:40:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:40:59 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:41:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MainPage/Bukalapak_Logo"), 0): Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:41:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:41:05 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:41:05 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-09-10 05:41:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:41:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-10 05:41:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MainPage/Kamu_telah_login_sebagai_Indra_Tester"), "Kamu telah login sebagai Indra Tester"): Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:41:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("MainPage/Search_Input"), "sepatu"): Text 'sepatu' is set on object 'Object Repository/MainPage/Search_Input'
+
+2022-09-10 05:41:07 - [MESSAGE][PASSED] - Text 'sepatu' is set on object 'Object Repository/MainPage/Search_Input'
+
+2022-09-10 05:41:07 - [TEST_STEP][PASSED] - click(findTestObject("MainPage/Icon_Search_Menu")): Object: 'Object Repository/MainPage/Icon_Search_Menu' is clicked on
+
+2022-09-10 05:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Icon_Search_Menu' is clicked on
+
+2022-09-10 05:41:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MainPage/Sepatu_Verify"), 0): Object 'Object Repository/MainPage/Sepatu_Verify' is present
+
+2022-09-10 05:41:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:41:14 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Sepatu_Verify' is present
+
+2022-09-10 05:41:14 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-09-10 05:41:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763274997.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/TC07" time="36.124" classname="Test Cases/Category/TC07" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:41:15 - [TEST_CASE][PASSED] - Test Cases/Category/TC07: Test Cases/Category/TC07
+
+2022-09-10 05:41:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:41:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:41:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:41:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:41:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:41:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:41:25 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:41:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:41:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:41:26 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:41:29 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:41:31 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:41:31 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:41:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), "jnEzvO7FEasNALd55+33aA=="): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:41:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:41:32 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:41:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MainPage/Bukalapak_Logo"), 0): Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:41:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:41:39 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-09-10 05:41:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:41:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-10 05:41:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MainPage/Kamu_telah_login_sebagai_Indra_Tester"), "Kamu telah login sebagai Indra Tester"): Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:41:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:41:39 - [TEST_STEP][PASSED] - click(findTestObject("MainPage/Kategori_Menu"), STOP_ON_FAILURE): Object: 'Object Repository/MainPage/Kategori_Menu' is clicked on
+
+2022-09-10 05:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Kategori_Menu' is clicked on
+
+2022-09-10 05:41:40 - [TEST_STEP][PASSED] - click(findTestObject("CategoryBike/Fullbike_Product")): Object: 'Object Repository/CategoryBike/Fullbike_Product' is clicked on
+
+2022-09-10 05:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryBike/Fullbike_Product' is clicked on
+
+2022-09-10 05:41:45 - [TEST_STEP][PASSED] - click(findTestObject("CategoryBike/Element_troy_Product")): Object: 'Object Repository/CategoryBike/Element_troy_Product' is clicked on
+
+2022-09-10 05:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryBike/Element_troy_Product' is clicked on
+
+2022-09-10 05:41:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CategoryBike/Element_troy_Verify"), 0): Object 'Object Repository/CategoryBike/Element_troy_Verify' is present
+
+2022-09-10 05:41:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:41:50 - [MESSAGE][PASSED] - Object 'Object Repository/CategoryBike/Element_troy_Verify' is present
+
+2022-09-10 05:41:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-09-10 05:41:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763311059.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Filter/TC08" time="31.575" classname="Test Cases/Filter/TC08" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:41:51 - [TEST_CASE][PASSED] - Test Cases/Filter/TC08: Test Cases/Filter/TC08
+
+2022-09-10 05:41:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:41:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:41:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:41:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:41:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:41:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:41:59 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:41:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:41:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:42:03 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:42:04 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:42:04 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:42:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), "jnEzvO7FEasNALd55+33aA=="): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:42:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:42:06 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:42:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MainPage/Bukalapak_Logo"), 0): Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:42:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:42:11 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-09-10 05:42:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:42:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-10 05:42:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MainPage/Kamu_telah_login_sebagai_Indra_Tester"), "Kamu telah login sebagai Indra Tester"): Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:42:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:42:12 - [TEST_STEP][PASSED] - click(findTestObject("MainPage/Kategori_Menu"), STOP_ON_FAILURE): Object: 'Object Repository/MainPage/Kategori_Menu' is clicked on
+
+2022-09-10 05:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Kategori_Menu' is clicked on
+
+2022-09-10 05:42:13 - [TEST_STEP][PASSED] - click(findTestObject("CategoryBike/Fullbike_Product")): Object: 'Object Repository/CategoryBike/Fullbike_Product' is clicked on
+
+2022-09-10 05:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryBike/Fullbike_Product' is clicked on
+
+2022-09-10 05:42:20 - [TEST_STEP][PASSED] - click(findTestObject("FilterPopuler/4KeAtas_RadioButton")): Object: 'Object Repository/FilterPopuler/4KeAtas_RadioButton' is clicked on
+
+2022-09-10 05:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/FilterPopuler/4KeAtas_RadioButton' is clicked on
+
+2022-09-10 05:42:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("FilterPopuler/4.337_barang_Verify"), "4.337 barang"): Actual text and expected text of test object 'Object Repository/FilterPopuler/4.337_barang_Verify' are matched.
+
+2022-09-10 05:42:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/FilterPopuler/4.337_barang_Verify' are matched.
+
+2022-09-10 05:42:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-09-10 05:42:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763342773.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/TC09" time="46.973" classname="Test Cases/Cart/TC09" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:42:23 - [TEST_CASE][PASSED] - Test Cases/Cart/TC09: Test Cases/Cart/TC09
+
+2022-09-10 05:42:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:42:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:42:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:42:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:42:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:42:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:42:32 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:42:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:42:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:42:38 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:42:39 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:42:39 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:42:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), "jnEzvO7FEasNALd55+33aA=="): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:42:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:42:41 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:42:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MainPage/Bukalapak_Logo"), 0): Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:42:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:42:48 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-09-10 05:42:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:42:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-10 05:42:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MainPage/Kamu_telah_login_sebagai_Indra_Tester"), "Kamu telah login sebagai Indra Tester"): Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:42:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:42:49 - [TEST_STEP][PASSED] - click(findTestObject("MainPage/Kategori_Menu"), STOP_ON_FAILURE): Object: 'Object Repository/MainPage/Kategori_Menu' is clicked on
+
+2022-09-10 05:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/MainPage/Kategori_Menu' is clicked on
+
+2022-09-10 05:42:49 - [TEST_STEP][PASSED] - click(findTestObject("CategoryBike/Fullbike_Product")): Object: 'Object Repository/CategoryBike/Fullbike_Product' is clicked on
+
+2022-09-10 05:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryBike/Fullbike_Product' is clicked on
+
+2022-09-10 05:42:56 - [TEST_STEP][PASSED] - click(findTestObject("CategoryBike/Element_troy_Product")): Object: 'Object Repository/CategoryBike/Element_troy_Product' is clicked on
+
+2022-09-10 05:43:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryBike/Element_troy_Product' is clicked on
+
+2022-09-10 05:43:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CategoryBike/Element_troy_Verify"), 0): Object 'Object Repository/CategoryBike/Element_troy_Verify' is present
+
+2022-09-10 05:43:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:43:03 - [MESSAGE][PASSED] - Object 'Object Repository/CategoryBike/Element_troy_Verify' is present
+
+2022-09-10 05:43:03 - [TEST_STEP][PASSED] - click(findTestObject("CategoryBike/Masukkan_Keranjang_Button")): Object: 'Object Repository/CategoryBike/Masukkan_Keranjang_Button' is clicked on
+
+2022-09-10 05:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryBike/Masukkan_Keranjang_Button' is clicked on
+
+2022-09-10 05:43:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CategoryBike/Keranjang_Belanja_Pop-Up"), "Keranjang Belanja"): Actual text and expected text of test object 'Object Repository/CategoryBike/Keranjang_Belanja_Pop-Up' are matched.
+
+2022-09-10 05:43:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CategoryBike/Keranjang_Belanja_Pop-Up' are matched.
+
+2022-09-10 05:43:05 - [TEST_STEP][PASSED] - click(findTestObject("CategoryBike/Lihat_Keranjang_Button")): Object: 'Object Repository/CategoryBike/Lihat_Keranjang_Button' is clicked on
+
+2022-09-10 05:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CategoryBike/Lihat_Keranjang_Button' is clicked on
+
+2022-09-10 05:43:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CartPage/1_Cart"), 0): Object 'Object Repository/CartPage/1_Cart' is present
+
+2022-09-10 05:43:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:43:09 - [MESSAGE][PASSED] - Object 'Object Repository/CartPage/1_Cart' is present
+
+2022-09-10 05:43:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-09-10 05:43:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763389768.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/TC10" time="32.375" classname="Test Cases/Cart/TC10" status="PASSED">
+         <system-out><![CDATA[2022-09-10 05:43:10 - [TEST_CASE][PASSED] - Test Cases/Cart/TC10: Test Cases/Cart/TC10
+
+2022-09-10 05:43:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-10 05:43:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-10 05:43:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-10 05:43:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-10 05:43:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-10 05:43:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bukalapak.com/#"): Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:43:19 - [MESSAGE][PASSED] - Navigate to 'https://www.bukalapak.com/#' successfully
+
+2022-09-10 05:43:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-10 05:43:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-10 05:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Bukalapak.com/Login_Menu")): Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Bukalapak.com/Login_Menu' is clicked on
+
+2022-09-10 05:43:26 - [TEST_STEP][PASSED] - setText(findTestObject("AccountPage/Nomor_handphone_atau_email_Input"), "indratesting666@gmail.com"): Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:43:27 - [MESSAGE][PASSED] - Text 'indratesting666@gmail.com' is set on object 'Object Repository/AccountPage/Nomor_handphone_atau_email_Input'
+
+2022-09-10 05:43:27 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Lanjut_Button")): Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Lanjut_Button' is clicked on
+
+2022-09-10 05:43:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("AccountPage/Password_Input"), "jnEzvO7FEasNALd55+33aA=="): Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:43:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccountPage/Password_Input'
+
+2022-09-10 05:43:28 - [TEST_STEP][PASSED] - click(findTestObject("AccountPage/Login_Button")): Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:43:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountPage/Login_Button' is clicked on
+
+2022-09-10 05:43:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("MainPage/Bukalapak_Logo"), 0): Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:43:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:43:36 - [MESSAGE][PASSED] - Object 'Object Repository/MainPage/Bukalapak_Logo' is present
+
+2022-09-10 05:43:36 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2022-09-10 05:43:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-09-10 05:43:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-10 05:43:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("MainPage/Kamu_telah_login_sebagai_Indra_Tester"), "Kamu telah login sebagai Indra Tester"): Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:43:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainPage/Kamu_telah_login_sebagai_Indra_Tester' are matched.
+
+2022-09-10 05:43:36 - [TEST_STEP][PASSED] - click(findTestObject("CartPage/Cart_Favorite")): Object: 'Object Repository/CartPage/Cart_Favorite' is clicked on
+
+2022-09-10 05:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CartPage/Cart_Favorite' is clicked on
+
+2022-09-10 05:43:40 - [TEST_STEP][PASSED] - click(findTestObject("CartPage/Hapus_Menu")): Object: 'Object Repository/CartPage/Hapus_Menu' is clicked on
+
+2022-09-10 05:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CartPage/Hapus_Menu' is clicked on
+
+2022-09-10 05:43:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("CartPage/Barang_telah_dihapus_Pop-Up"), "Barang telah dihapus."): Actual text and expected text of test object 'Object Repository/CartPage/Barang_telah_dihapus_Pop-Up' are matched.
+
+2022-09-10 05:43:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CartPage/Barang_telah_dihapus_Pop-Up' are matched.
+
+2022-09-10 05:43:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-09-10 05:43:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\bukalapak-squadap\\Reports\\20220910_053910\\Bukalapak\\Regression\\20220910_053910\\1662763422223.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-10 05:39:15 - [TEST_SUITE][PASSED] - Regression: Test Cases/Cart/TC10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

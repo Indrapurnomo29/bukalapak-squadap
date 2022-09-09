@@ -1,0 +1,59 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.bukalapak.com/#')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Bukalapak.com/Login_Menu'))
+
+WebUI.setText(findTestObject('AccountPage/Nomor_handphone_atau_email_Input'), 'indratesting666@gmail.com')
+
+WebUI.click(findTestObject('AccountPage/Lanjut_Button'))
+
+WebUI.setEncryptedText(findTestObject('AccountPage/Password_Input'), 'jnEzvO7FEasNALd55+33aA==')
+
+WebUI.click(findTestObject('AccountPage/Login_Button'))
+
+WebUI.verifyElementPresent(findTestObject('MainPage/Bukalapak_Logo'), 0)
+
+WebUI.waitForPageLoad(0)
+
+WebUI.verifyElementText(findTestObject('MainPage/Kamu_telah_login_sebagai_Indra_Tester'), 'Kamu telah login sebagai Indra Tester')
+
+WebUI.click(findTestObject('MainPage/Kategori_Menu'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('CategoryBike/Fullbike_Product'))
+
+WebUI.click(findTestObject('CategoryBike/Element_troy_Product'))
+
+WebUI.verifyElementPresent(findTestObject('CategoryBike/Element_troy_Verify'), 0)
+
+WebUI.click(findTestObject('CategoryBike/Masukkan_Keranjang_Button'))
+
+WebUI.verifyElementText(findTestObject('CategoryBike/Keranjang_Belanja_Pop-Up'), 'Keranjang Belanja')
+
+WebUI.click(findTestObject('CategoryBike/Lihat_Keranjang_Button'))
+
+WebUI.verifyElementPresent(findTestObject('CartPage/1_Cart'), 0)
+
+WebUI.takeScreenshot()
+
