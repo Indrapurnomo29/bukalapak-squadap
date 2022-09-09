@@ -11,3 +11,9 @@ To download and install Katalon Studio, visit our website: [Katalon Studio](http
 
 ## Documentation 
 Read our [documentation](https://docs.katalon.com/docs/katalon-testops/overview/testops-overview).
+
+## Community and support
+- Visit the [Documentation](https://docs.katalon.com/docs/katalon-studio-enterprise/welcome-to-katalon-studio) website for some useful tutorials.
+- Learn automation testing with Katalon Studio by enrolling in [Katalon Academy](https://academy.katalon.com/#katalon-testops) courses.
+- Ask questions on the [Katalon Community](https://forum.katalon.com/c/katalon-studio) forum.
+- Create [Github Issues](https://github.com/katalon-studio/katalon-studio/issues) for bug reports and feature requests.
