@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Joemen_Official_Store_Message</name>
+   <tag></tag>
+   <elementGuidId>b1b2540c-5549-4273-95b3-ee04d05b919f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;v__chat-center&quot;]/div/div[2]/div[1]/div/div[2]/div/div/div/div/ul/div/div[1]/li/div/div/div[2]/div/div[1]/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
