@@ -51,5 +51,3 @@ WebUI.click(findTestObject('MainPage/Joemen_Official_Store_Message'))
 
 WebUI.verifyElementText(findTestObject('MainPage/Joemen_Verify'), 'Joemen Official Store')
 
-WebUI.closeBrowser()
-
